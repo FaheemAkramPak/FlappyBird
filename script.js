@@ -166,3 +166,17 @@ function detectCollision(a, b){
     a.y + a.height > b.y; 
     
  }
+
+ function jumpBird() {
+    if (!gameOver) {
+        velocityY = -6;
+    }
+}
+
+
+
+function playAgain(){
+
+    
+window.location.reload();
+}
